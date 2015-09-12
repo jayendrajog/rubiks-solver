@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F902075C1BA4EFF50046F556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902075B1BA4EFF50046F556 /* AppDelegate.swift */; };
+		F902075E1BA4EFF50046F556 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902075D1BA4EFF50046F556 /* ViewController.swift */; };
+		F90207611BA4EFF50046F556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F902075F1BA4EFF50046F556 /* Main.storyboard */; };
+		F90207631BA4EFF50046F556 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F90207621BA4EFF50046F556 /* Images.xcassets */; };
+		F90207661BA4EFF50046F556 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F90207641BA4EFF50046F556 /* LaunchScreen.xib */; };
+		F90207721BA4EFF50046F556 /* rubiks_solverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90207711BA4EFF50046F556 /* rubiks_solverTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F902076C1BA4EFF50046F556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F902074E1BA4EFF50046F556 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F90207551BA4EFF50046F556;
+			remoteInfo = "rubiks-solver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F90207561BA4EFF50046F556 /* rubiks-solver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rubiks-solver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F902075A1BA4EFF50046F556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F902075B1BA4EFF50046F556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F902075D1BA4EFF50046F556 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F90207601BA4EFF50046F556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F90207621BA4EFF50046F556 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F90207651BA4EFF50046F556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F902076B1BA4EFF50046F556 /* rubiks-solverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rubiks-solverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90207701BA4EFF50046F556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F90207711BA4EFF50046F556 /* rubiks_solverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rubiks_solverTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F90207531BA4EFF50046F556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90207681BA4EFF50046F556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F902074D1BA4EFF50046F556 = {
+			isa = PBXGroup;
+			children = (
+				F90207581BA4EFF50046F556 /* rubiks-solver */,
+				F902076E1BA4EFF50046F556 /* rubiks-solverTests */,
+				F90207571BA4EFF50046F556 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F90207571BA4EFF50046F556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F90207561BA4EFF50046F556 /* rubiks-solver.app */,
+				F902076B1BA4EFF50046F556 /* rubiks-solverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F90207581BA4EFF50046F556 /* rubiks-solver */ = {
+			isa = PBXGroup;
+			children = (
+				F902075B1BA4EFF50046F556 /* AppDelegate.swift */,
+				F902075D1BA4EFF50046F556 /* ViewController.swift */,
+				F902075F1BA4EFF50046F556 /* Main.storyboard */,
+				F90207621BA4EFF50046F556 /* Images.xcassets */,
+				F90207641BA4EFF50046F556 /* LaunchScreen.xib */,
+				F90207591BA4EFF50046F556 /* Supporting Files */,
+			);
+			path = "rubiks-solver";
+			sourceTree = "<group>";
+		};
+		F90207591BA4EFF50046F556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F902075A1BA4EFF50046F556 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F902076E1BA4EFF50046F556 /* rubiks-solverTests */ = {
+			isa = PBXGroup;
+			children = (
+				F90207711BA4EFF50046F556 /* rubiks_solverTests.swift */,
+				F902076F1BA4EFF50046F556 /* Supporting Files */,
+			);
+			path = "rubiks-solverTests";
+			sourceTree = "<group>";
+		};
+		F902076F1BA4EFF50046F556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F90207701BA4EFF50046F556 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F90207551BA4EFF50046F556 /* rubiks-solver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F90207751BA4EFF50046F556 /* Build configuration list for PBXNativeTarget "rubiks-solver" */;
+			buildPhases = (
+				F90207521BA4EFF50046F556 /* Sources */,
+				F90207531BA4EFF50046F556 /* Frameworks */,
+				F90207541BA4EFF50046F556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rubiks-solver";
+			productName = "rubiks-solver";
+			productReference = F90207561BA4EFF50046F556 /* rubiks-solver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F902076A1BA4EFF50046F556 /* rubiks-solverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F90207781BA4EFF50046F556 /* Build configuration list for PBXNativeTarget "rubiks-solverTests" */;
+			buildPhases = (
+				F90207671BA4EFF50046F556 /* Sources */,
+				F90207681BA4EFF50046F556 /* Frameworks */,
+				F90207691BA4EFF50046F556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F902076D1BA4EFF50046F556 /* PBXTargetDependency */,
+			);
+			name = "rubiks-solverTests";
+			productName = "rubiks-solverTests";
+			productReference = F902076B1BA4EFF50046F556 /* rubiks-solverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F902074E1BA4EFF50046F556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "SCove Productions";
+				TargetAttributes = {
+					F90207551BA4EFF50046F556 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F902076A1BA4EFF50046F556 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F90207551BA4EFF50046F556;
+					};
+				};
+			};
+			buildConfigurationList = F90207511BA4EFF50046F556 /* Build configuration list for PBXProject "rubiks-solver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F902074D1BA4EFF50046F556;
+			productRefGroup = F90207571BA4EFF50046F556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F90207551BA4EFF50046F556 /* rubiks-solver */,
+				F902076A1BA4EFF50046F556 /* rubiks-solverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F90207541BA4EFF50046F556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90207611BA4EFF50046F556 /* Main.storyboard in Resources */,
+				F90207661BA4EFF50046F556 /* LaunchScreen.xib in Resources */,
+				F90207631BA4EFF50046F556 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90207691BA4EFF50046F556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F90207521BA4EFF50046F556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F902075E1BA4EFF50046F556 /* ViewController.swift in Sources */,
+				F902075C1BA4EFF50046F556 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90207671BA4EFF50046F556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90207721BA4EFF50046F556 /* rubiks_solverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F902076D1BA4EFF50046F556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F90207551BA4EFF50046F556 /* rubiks-solver */;
+			targetProxy = F902076C1BA4EFF50046F556 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F902075F1BA4EFF50046F556 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F90207601BA4EFF50046F556 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F90207641BA4EFF50046F556 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F90207651BA4EFF50046F556 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F90207731BA4EFF50046F556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F90207741BA4EFF50046F556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F90207761BA4EFF50046F556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "rubiks-solver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F90207771BA4EFF50046F556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "rubiks-solver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F90207791BA4EFF50046F556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "rubiks-solverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rubiks-solver.app/rubiks-solver";
+			};
+			name = Debug;
+		};
+		F902077A1BA4EFF50046F556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "rubiks-solverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rubiks-solver.app/rubiks-solver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F90207511BA4EFF50046F556 /* Build configuration list for PBXProject "rubiks-solver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90207731BA4EFF50046F556 /* Debug */,
+				F90207741BA4EFF50046F556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F90207751BA4EFF50046F556 /* Build configuration list for PBXNativeTarget "rubiks-solver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90207761BA4EFF50046F556 /* Debug */,
+				F90207771BA4EFF50046F556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F90207781BA4EFF50046F556 /* Build configuration list for PBXNativeTarget "rubiks-solverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90207791BA4EFF50046F556 /* Debug */,
+				F902077A1BA4EFF50046F556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F902074E1BA4EFF50046F556 /* Project object */;
+}
